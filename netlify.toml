@@ -1,0 +1,3 @@
+[build]
+  publish = "public"                    # Eleventy output folder
+  command = "npm run endprodcms"        # Your build command

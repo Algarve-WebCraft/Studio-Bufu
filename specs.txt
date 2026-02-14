@@ -1,0 +1,47 @@
+(Light-mode)
+
+Base colour - 
+Base colour accent - 
+Base colour secondary accent - 
+Background colour - 
+Heading colour - 
+Font colour dark - 
+Focus outline -
+Heading white - #fff
+Sub-heading white - #f4f6fc
+Font colour white - #e5e7eb
+
+(Dark-mode)
+
+Background colour - 
+Base colour - 
+Base colour accent - 
+Base colour secondary accent - 
+
+(Font Family)
+
+Headings - 
+Text - 
+
+(Font Size)
+
+Main Headings - 42px » 90px
+Secondary Headings - 36px » 46px
+Micro Headings - 18px » 20px
+Text - 16px » 18px
+Small text - 16px
+
+(Padding)
+
+Light sections - 80px » 100px
+Dark sections - 40px » 100px
+
+(Spacing)
+
+Secondary Headings - 20px » 24px
+Text - 12px » 14px
+Buttons - 24px » 28px
+Nav Horizontal - 28px
+Nav Vertical - 20px
+Pictures gap - 16px » 24px
+Icons - 12px » 16px

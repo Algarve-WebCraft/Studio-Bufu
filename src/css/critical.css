@@ -141,11 +141,15 @@
   }
 
   .cmp-main-btn {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
     display: inline-block;
     position: relative;
     font-family: var(--ff-text);
     font-size: 0.9rem;
-    color: var(--black-100);
+    color: var(--black-100) !important;
     letter-spacing: 1px;
     font-weight: 700;
     background-color: var(--white-200);
@@ -264,7 +268,7 @@
   .hero-background-image {
     position: relative;
     width: 100%;
-    min-height: 64vh;
+    min-height: 64lvh;
     background-image: url("/assets/images/tool-background.webp");
     background-size: cover;
     background-position: center;

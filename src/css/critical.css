@@ -145,6 +145,7 @@
     position: relative;
     font-family: var(--ff-text);
     font-size: 0.9rem;
+    color: var(--black-100);
     letter-spacing: 1px;
     font-weight: 700;
     background-color: var(--white-200);
@@ -263,7 +264,7 @@
   .hero-background-image {
     position: relative;
     width: 100%;
-    min-height: 64dvh;
+    min-height: 64vh;
     background-image: url("/assets/images/tool-background.webp");
     background-size: cover;
     background-position: center;

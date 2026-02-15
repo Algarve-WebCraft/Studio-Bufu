@@ -1,56 +1,36 @@
 :root {
-  --clr-dark-theme-100: #60a5fa;
-  --clr-dark-theme-200: #3b82c4;
-  --clr-dark-theme-300: #1e5abf;
-  --clr-dark-theme-400: #111827;
-  --clr-white-100: #fff;
-  --clr-white-200: #f4f6fc;
-  --clr-white-300: #e5e7eb;
+  --grey-100: #b3b2b2;
+  --black-100: #000;
+  --white-100: #fff;
+  --white-200: #f4f6fc;
+  --white-300: #e5e7eb;
 }
 
-html.dark-mode .cmp-main-btn {
-  background-color: var(--clr-dark-theme-50);
+html.dark-mode body {
+  background-color: var(--white-100);
+}
+
+html.dark-mode .hero-background-image::before {
+  background: rgba(0, 0, 0, 0.25);
 }
 
 html.dark-mode .header__container {
-  box-shadow: 0 3px 25px var(--clr-dark-theme-200);
+  background-color: var(--black-100);
 }
 
-html.dark-mode .hamburger-btn {
-  box-shadow: inset 0 1px 2px #ffffff50, 0 2px 4px #00000030,
-    0 4px 8px #00000030;
+html.dark-mode .header-title {
+  color: var(--white-100);
 }
 
-html.dark-mode #footer {
-  background-color: var(--clr-dark-theme-300);
+html.dark-mode .contact-heading,
+html.dark-mode .contact-span,
+html.dark-mode .footer-copyright {
+  color: var(--black-100);
 }
 
-html.dark-mode body,
-html.dark-mode .header__container,
-html.dark-mode .nav-bar {
-  background-color: var(--clr-dark-theme-400);
-}
-
-html.dark-mode p,
-html.dark-mode li,
-html.dark-mode h1,
-html.dark-mode h2,
-html.dark-mode h3,
-html.dark-mode a {
-  color: var(--bodyTextWhite);
-}
-
-html.dark-mode .business-logo {
-  transform: rotateY(360deg);
-  filter: invert(1) hue-rotate(200deg);
-}
-
-html.dark-mode .nav-bar .active-link {
-  color: var(--clr-blue-100);
-
-  @media (width > 62.5rem) {
-    color: var(--bodyTextWhite);
-  }
+html.dark-mode .contact-form__input,
+html.dark-mode .contact-form__textarea {
+  border: 1px solid #2f2f2f;
 }
 
 /*-- -------------------------- -->
@@ -97,14 +77,18 @@ html.dark-mode #dark-mode-toggle #svg-moon {
 
   #svg-moon {
     z-index: 2;
-    transition: transform 0.75s, opacity 0.5s;
+    transition:
+      transform 0.75s,
+      opacity 0.5s;
   }
 
   #svg-sun {
     z-index: 1;
     transform: translate(-50%, 100%);
     opacity: 0;
-    transition: transform 0.75s, opacity 0.5s;
+    transition:
+      transform 0.75s,
+      opacity 0.5s;
 
     /* prettier-ignore */
     transition-timing-function: linear(0, 0.504 20.5%, 1 37.8%, 0.863 44.4%, 0.831 47.4%, 0.821 50.3%, 0.83 53%, 0.856 55.8%, 1 65.5%, 0.959 69.4%, 0.947 73.2%, 0.955 76.6%, 1 84.5%, 0.991 89.3%, 1);

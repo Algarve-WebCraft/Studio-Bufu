@@ -128,7 +128,7 @@
     --ff-text: "Montserrat", Arial, sans-serif;
     --ff-heading: "Playfair Display", Arial, sans-serif;
 
-    --grey-100: #b3b2b2;
+    --grey-100: #ec1c1c;
     --black-100: #000;
     --white-100: #fff;
     --white-200: #f4f6fc;
@@ -229,7 +229,7 @@
   }
 
   .header__container {
-    background-color: #fff;
+    background-color: var(--white-300);
     width: 100%;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   }
@@ -308,7 +308,7 @@
   .contact-heading {
     position: relative;
     font-size: clamp(2.5rem, 5vw, 3rem);
-    color: var(--grey-100);
+    color: var(--white-200);
   }
 
   .contact-span {
@@ -317,6 +317,7 @@
     font-family: var(--ff-text);
     font-size: 1.35rem;
     color: var(--white-300);
+    opacity: 0.92;
     margin-top: 5rem;
   }
 
@@ -324,12 +325,12 @@
     content: "";
     position: absolute;
     background-color: #4a4a4a;
-    width: 4%;
+    width: 65px;
     height: 1px;
     left: 50%;
     transform: translate(-50%, -50%);
-    bottom: -2.25rem;
-    opacity: 0.5;
+    bottom: -2.75rem;
+    opacity: 0.75;
   }
 
   .contact-form {

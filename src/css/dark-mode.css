@@ -33,6 +33,10 @@ html.dark-mode .contact-form__textarea {
   border: 1px solid #2f2f2f;
 }
 
+html.dark-mode .contact-heading:after {
+    opacity: 0.4;
+  }
+
 /*-- -------------------------- -->
 <---      Dark Mode Toggle      -->
 <--- -------------------------- -*/
